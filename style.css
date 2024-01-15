@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('F1.jpeg');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: yellow;
+}
+
+#canvas-container {
+  border: 2px solid white;
+}
+
+canvas {
+  cursor: crosshair;
+  display: block;
+  margin: auto;
+}
+
+#name-text {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: red;
+  font-size: 30px;
+}

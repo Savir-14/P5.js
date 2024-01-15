@@ -1,0 +1,7 @@
+.lesson/**/*
+.config/**/*
+sources.md
+.replit
+replit.nix
+.git
+.gitignore
